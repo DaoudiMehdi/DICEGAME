@@ -1,0 +1,13 @@
+{% extends 'base.html'%}
+{% block content %}
+
+   <div id="container">
+    <form class="content" action="/game" method="POST">
+        <input type="text" name="name" id="name" placeholder="Entrez votre nom " required/> <br />
+        <input type="email" name="email" id="email" placeholder="Entrez votre Email " required> <br />         
+        <input type="submit" value="Star Game " id="btn1"  />           
+    </form>
+ 
+    
+   </div>
+{% endblock content %}

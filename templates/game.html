@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{% block content %}
+    <div id="container1">
+        <form >
+    
+            
+            <img id="picts" width="350px" height="450px">
+        </form>
+    </div>
+    <button id="try" onclick="location='/game'" >New game</button>
+    <button id="end" onclick="location='/'" >end </button>
+    <button id="load">load</button>
+    <h2 id="score">0</h2>
+
+    
+<script src="{{ url_for('static', filename='/script.js')}}"></script> 
+{% endblock content %}
